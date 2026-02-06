@@ -1,10 +1,8 @@
-const CACHE_NAME = 'pronome-v1';
+const CACHE_NAME = 'pronome-v2-embedded';
 const ASSETS = [
   './',
   './index.html',
-  './manifest.json',
-  './icon-192.png',
-  './icon-512.png'
+  './manifest.json'
 ];
 
 self.addEventListener('install', (e) => {
